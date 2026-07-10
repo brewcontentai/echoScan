@@ -45,6 +45,7 @@ echoscan = "echoscan.cli:main"
 [project.urls]
 Homepage = "https://github.com/brewcontentai/echoScan"
 Repository = "https://github.com/brewcontentai/echoScan"
+"Brewcontent.ai" = "https://brewcontent.ai"
 
 [tool.setuptools.packages.find]
 where = ["src"]

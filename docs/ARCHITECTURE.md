@@ -1,6 +1,6 @@
 # EchoScan Architecture
 
-*Built by Brewcontent.ai*
+*Built by [Brewcontent.ai](https://brewcontent.ai)*
 
 This document explains why EchoScan is built the way it is, how its pieces fit together, and the trade-offs behind its key decisions. It's aimed at anyone extending the scoring logic, adding a new signal, or evaluating whether to embed EchoScan into a larger pipeline.
 

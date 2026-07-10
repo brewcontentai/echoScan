@@ -17,7 +17,10 @@ from echoscan.models import EchoScanReport
 
 console = Console()
 
-BANNER = "[bold cyan]EchoScan[/bold cyan] [dim]— Content Distinctiveness & Information-Gain Auditor[/dim]\n[bold magenta]Built by Brewcontent.ai[/bold magenta]"
+BANNER = (
+    "[bold cyan]EchoScan[/bold cyan] [dim]— Content Distinctiveness & Information-Gain Auditor[/dim]\n"
+    "[bold magenta]Built by [link=https://brewcontent.ai]Brewcontent.ai[/link][/bold magenta]"
+)
 
 
 def _read_text(path: Path) -> str:

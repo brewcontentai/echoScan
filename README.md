@@ -1,11 +1,13 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="EchoScan — Content Distinctiveness &amp; Information-Gain Auditor, built by Brewcontent.ai" width="100%">
+  <a href="https://brewcontent.ai">
+    <img src="assets/banner.svg" alt="EchoScan — Content Distinctiveness &amp; Information-Gain Auditor, built by Brewcontent.ai" width="100%">
+  </a>
 </p>
 
 # EchoScan
 
 **Content Distinctiveness & Information-Gain Auditor**
-*Built by Brewcontent.ai*
+*Built by [Brewcontent.ai](https://brewcontent.ai)*
 
 Marketing teams generate more AI-assisted content than ever, and it's converging on the same phrasing, structure, and claims. Research on the 2026 content landscape consistently points to the same root problem: the content gap is no longer a lack of keywords — it's a lack of **information gain**, unique data or perspective that consensus-trained models can't produce, buried under AI-tell cliches that hurt both reader trust and AI-search visibility.
 
@@ -110,5 +112,11 @@ CI runs the full test suite across Python 3.9–3.12 on every push (`.github/wor
 MIT — see [LICENSE](LICENSE).
 
 ---
+
+<p align="left">
+  <a href="https://brewcontent.ai">
+    <img src="assets/brewcontent-logo.svg" alt="Brewcontent.ai" height="40">
+  </a>
+</p>
 
 Built by **[Brewcontent.ai](https://brewcontent.ai)**

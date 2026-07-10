@@ -1,6 +1,14 @@
 <svg width="1280" height="320" viewBox="0 0 1280 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">EchoScan</title>
-  <desc id="desc">EchoScan — Content Distinctiveness and Information-Gain Auditor, built by Brewcontent.ai</desc>
+  <desc id="desc">EchoScan — Content Distinctiveness and Information-Gain Auditor, built by Brewcontent.ai (brewcontent.ai)</desc>
+
+  <defs>
+    <linearGradient id="petalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f9a8f0"/>
+      <stop offset="45%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
 
   <!-- flat background, no gradients -->
   <rect width="1280" height="320" fill="#0b1120"/>
@@ -23,20 +31,33 @@
     <circle r="10" fill="#22d3ee"/>
   </g>
 
-  <!-- small distinctiveness bar-chart glyph, echoes the CLI's component-score table -->
-  <g transform="translate(180,222)">
-    <rect x="0"  y="18" width="14" height="18" fill="#334155"/>
-    <rect x="22" y="6"  width="14" height="30" fill="#22d3ee"/>
-    <rect x="44" y="24" width="14" height="12" fill="#334155"/>
-    <rect x="66" y="0"  width="14" height="36" fill="#a855f7"/>
-  </g>
-
   <!-- wordmark -->
   <text x="180" y="150" font-family="'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="700" fill="#f8fafc">Echo<tspan fill="#22d3ee">Scan</tspan></text>
 
   <!-- tagline -->
   <text x="182" y="188" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#94a3b8">Content Distinctiveness &amp; Information-Gain Auditor</text>
 
-  <!-- built by -->
-  <text x="182" y="222" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="1" fill="#c084fc">BUILT BY BREWCONTENT.AI</text>
+  <!-- built by: mini Brewcontent.ai logo lockup (icon + wordmark + url) -->
+  <g transform="translate(182,214)">
+    <text x="0" y="14" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#64748b">Built by</text>
+
+    <!-- mini icon badge -->
+    <g transform="translate(78,-8)">
+      <rect x="0" y="0" width="26" height="26" rx="6" fill="#ffffff" stroke="#f9a8d4" stroke-width="1.5"/>
+      <path d="M10 6 L10 20 Q10 22.5 12.5 22.5 Q15 22.5 15 20 Q15 17.5 12.5 17.5 Q11.5 17.5 10 18"
+            fill="none" stroke="#6d28d9" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <g transform="translate(18,13)">
+        <g id="banner-petal">
+          <path d="M0,0 C 1,-4 4,-6 6.5,-4.5 C 5,-1.5 2.5,-0.5 0,0 Z" fill="url(#petalGrad)"/>
+        </g>
+        <use href="#banner-petal" transform="rotate(72)"/>
+        <use href="#banner-petal" transform="rotate(144)"/>
+        <use href="#banner-petal" transform="rotate(216)"/>
+        <use href="#banner-petal" transform="rotate(288)"/>
+      </g>
+    </g>
+
+    <text x="112" y="14" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="700" fill="#c084fc">Brewcontent.ai</text>
+    <text x="112" y="34" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#64748b">brewcontent.ai</text>
+  </g>
 </svg>

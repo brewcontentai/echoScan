@@ -1,0 +1,39 @@
+<svg width="640" height="120" viewBox="0 0 640 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="bc-title bc-desc">
+  <title id="bc-title">Brewcontent.ai</title>
+  <desc id="bc-desc">Brewcontent.ai logo — a stylized lowercase b mark with a five-petal swirl, next to the Brewcontent wordmark</desc>
+
+  <defs>
+    <linearGradient id="petalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f9a8f0"/>
+      <stop offset="45%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#6d28d9"/>
+    </linearGradient>
+    <linearGradient id="wordmarkGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+
+  <!-- icon badge -->
+  <rect x="4" y="4" width="112" height="112" rx="22" fill="#ffffff" stroke="#f9a8d4" stroke-width="5"/>
+
+  <!-- lowercase "b" stem + bowl -->
+  <path d="M42 26 L42 88 Q42 96 50 96 Q60 96 60 84 Q60 72 50 72 Q46 72 42 74"
+        fill="none" stroke="#6d28d9" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- five-petal swirl -->
+  <g transform="translate(74,60)">
+    <g id="petal-group">
+      <path d="M0,0 C 4,-16 16,-24 26,-18 C 20,-6 10,-2 0,0 Z" fill="url(#petalGrad)"/>
+    </g>
+    <use href="#petal-group" transform="rotate(72)"/>
+    <use href="#petal-group" transform="rotate(144)"/>
+    <use href="#petal-group" transform="rotate(216)"/>
+    <use href="#petal-group" transform="rotate(288)"/>
+    <!-- sparkle -->
+    <path d="M0,-6 L2,-1.5 L6.5,0 L2,1.5 L0,6 L-2,1.5 L-6.5,0 L-2,-1.5 Z" fill="#ffffff"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="150" y="82" font-family="'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" fill="url(#wordmarkGrad)">Brewcontent</text>
+</svg>
