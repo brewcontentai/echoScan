@@ -1,7 +1,7 @@
 """
 EchoScan — Content Distinctiveness & Information-Gain Auditor.
 
-Powered by Brewcontent AI.
+Built by Brewcontent.ai.
 
 EchoScan scores a piece of content for three things marketing teams
 consistently struggle to measure in 2026's AI-saturated content landscape:

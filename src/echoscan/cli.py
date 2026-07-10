@@ -1,4 +1,4 @@
-"""EchoScan command-line interface. Powered by Brewcontent AI."""
+"""EchoScan command-line interface. Built by Brewcontent.ai."""
 
 from __future__ import annotations
 
@@ -17,7 +17,7 @@ from echoscan.models import EchoScanReport
 
 console = Console()
 
-BANNER = "[bold cyan]EchoScan[/bold cyan] [dim]— Content Distinctiveness & Information-Gain Auditor[/dim]\n[bold magenta]Powered by Brewcontent AI[/bold magenta]"
+BANNER = "[bold cyan]EchoScan[/bold cyan] [dim]— Content Distinctiveness & Information-Gain Auditor[/dim]\n[bold magenta]Built by Brewcontent.ai[/bold magenta]"
 
 
 def _read_text(path: Path) -> str:
@@ -98,7 +98,7 @@ def _render(report: EchoScanReport) -> None:
 def main() -> None:
     """EchoScan — Content Distinctiveness & Information-Gain Auditor.
 
-    Powered by Brewcontent AI.
+    Built by Brewcontent.ai.
     """
 
 

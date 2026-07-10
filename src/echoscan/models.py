@@ -72,5 +72,5 @@ class EchoScanReport:
             "information_gain": self.information_gain.to_dict(),
             "overlap": self.overlap.to_dict(),
             "suggestions": self.suggestions,
-            "powered_by": "Brewcontent AI",
+            "built_by": "Brewcontent.ai",
         }

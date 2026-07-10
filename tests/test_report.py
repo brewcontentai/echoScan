@@ -9,8 +9,8 @@ def test_generic_text_scores_lower_than_distinctive_text():
     )
     distinctive = (
         "We surveyed 214 marketing teams (n=214) in March 2026 and found 63% cited "
-        "attribution as their top challenge, per our internal Brewcontent AI report. "
-        "Revenue from first-touch content rose 23% year over year at CloudAngles."
+        "attribution as their top challenge, per our internal Brewcontent.ai report. "
+        "Revenue from first-touch content rose 23% year over year at Brewcontent.ai."
     )
     generic_report = analyze(generic, source="generic.txt")
     distinctive_report = analyze(distinctive, source="distinctive.txt")
@@ -25,7 +25,7 @@ def test_report_to_dict_is_json_serializable():
     report = analyze("Some sample content with 42% growth in 2026.", source="test.txt")
     serialized = json.dumps(report.to_dict())
     assert "distinctiveness_score" in serialized
-    assert "Brewcontent AI" in serialized
+    assert "Brewcontent.ai" in serialized
 
 
 def test_overlap_included_when_competitors_supplied():

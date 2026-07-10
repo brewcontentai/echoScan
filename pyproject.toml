@@ -5,12 +5,12 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "echoscan"
 version = "0.1.0"
-description = "EchoScan — Content Distinctiveness & Information-Gain Auditor. Powered by Brewcontent AI."
+description = "EchoScan — Content Distinctiveness & Information-Gain Auditor. Built by Brewcontent.ai."
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
 authors = [
-    { name = "Brewcontent AI", email = "cloudangles@cloudangles.com" }
+    { name = "Brewcontent.ai", email = "cloudangles@cloudangles.com" }
 ]
 keywords = ["marketing", "content", "seo", "ai", "content-audit", "brewcontent"]
 classifiers = [
@@ -43,8 +43,8 @@ dev = [
 echoscan = "echoscan.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/cloudangles/echoscan"
-Repository = "https://github.com/cloudangles/echoscan"
+Homepage = "https://github.com/brewcontentai/echoScan"
+Repository = "https://github.com/brewcontentai/echoScan"
 
 [tool.setuptools.packages.find]
 where = ["src"]

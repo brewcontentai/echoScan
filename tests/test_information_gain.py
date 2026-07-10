@@ -22,7 +22,7 @@ def test_detects_evidence_markers():
 
 
 def test_detects_named_entities():
-    text = "Jasper and Copy.ai both scored lower than Brewcontent AI on our benchmark."
+    text = "Jasper and Copy.ai both scored lower than Brewcontent.ai on our benchmark."
     result = score_information_gain(text)
     assert len(result.unique_entities) > 0
 

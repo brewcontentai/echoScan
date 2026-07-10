@@ -16,7 +16,7 @@ def test_cli_analyze_runs_and_exits_zero(tmp_path):
 
     assert result.exit_code == 0
     assert "Distinctiveness Score" in result.output
-    assert "Brewcontent AI" in result.output
+    assert "Brewcontent.ai" in result.output
 
 
 def test_cli_json_export(tmp_path):
@@ -32,7 +32,7 @@ def test_cli_json_export(tmp_path):
     assert result.exit_code == 0
     data = json.loads(json_file.read_text())
     assert "distinctiveness_score" in data
-    assert data["powered_by"] == "Brewcontent AI"
+    assert data["built_by"] == "Brewcontent.ai"
 
 
 def test_cli_missing_file_exits_nonzero():

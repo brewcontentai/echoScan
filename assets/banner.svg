@@ -1,0 +1,42 @@
+<svg width="1280" height="320" viewBox="0 0 1280 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">EchoScan</title>
+  <desc id="desc">EchoScan — Content Distinctiveness and Information-Gain Auditor, built by Brewcontent.ai</desc>
+
+  <!-- flat background, no gradients -->
+  <rect width="1280" height="320" fill="#0b1120"/>
+
+  <!-- subtle grid texture for depth without gradients -->
+  <g opacity="0.35">
+    <line x1="0" y1="80" x2="1280" y2="80" stroke="#1e293b" stroke-width="1"/>
+    <line x1="0" y1="160" x2="1280" y2="160" stroke="#1e293b" stroke-width="1"/>
+    <line x1="0" y1="240" x2="1280" y2="240" stroke="#1e293b" stroke-width="1"/>
+  </g>
+
+  <!-- echo / scan rings motif, right side -->
+  <g transform="translate(980,160)" fill="none" stroke-linecap="round">
+    <circle r="36" stroke="#22d3ee" stroke-width="6"/>
+    <circle r="72" stroke="#22d3ee" stroke-width="5" opacity="0.75"/>
+    <circle r="108" stroke="#22d3ee" stroke-width="4" opacity="0.5"/>
+    <circle r="144" stroke="#a855f7" stroke-width="3" opacity="0.35"/>
+    <!-- scan sweep line -->
+    <line x1="0" y1="0" x2="140" y2="-70" stroke="#a855f7" stroke-width="4" opacity="0.8"/>
+    <circle r="10" fill="#22d3ee"/>
+  </g>
+
+  <!-- small distinctiveness bar-chart glyph, echoes the CLI's component-score table -->
+  <g transform="translate(180,222)">
+    <rect x="0"  y="18" width="14" height="18" fill="#334155"/>
+    <rect x="22" y="6"  width="14" height="30" fill="#22d3ee"/>
+    <rect x="44" y="24" width="14" height="12" fill="#334155"/>
+    <rect x="66" y="0"  width="14" height="36" fill="#a855f7"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="180" y="150" font-family="'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="700" fill="#f8fafc">Echo<tspan fill="#22d3ee">Scan</tspan></text>
+
+  <!-- tagline -->
+  <text x="182" y="188" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#94a3b8">Content Distinctiveness &amp; Information-Gain Auditor</text>
+
+  <!-- built by -->
+  <text x="182" y="222" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="1" fill="#c084fc">BUILT BY BREWCONTENT.AI</text>
+</svg>

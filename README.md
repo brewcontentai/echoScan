@@ -1,7 +1,11 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="EchoScan — Content Distinctiveness &amp; Information-Gain Auditor, built by Brewcontent.ai" width="100%">
+</p>
+
 # EchoScan
 
 **Content Distinctiveness & Information-Gain Auditor**
-*Powered by Brewcontent AI*
+*Built by Brewcontent.ai*
 
 Marketing teams generate more AI-assisted content than ever, and it's converging on the same phrasing, structure, and claims. Research on the 2026 content landscape consistently points to the same root problem: the content gap is no longer a lack of keywords — it's a lack of **information gain**, unique data or perspective that consensus-trained models can't produce, buried under AI-tell cliches that hurt both reader trust and AI-search visibility.
 
@@ -52,7 +56,7 @@ echoscan analyze examples/distinctive_sample.txt --competitor examples/competito
 
 ```
 EchoScan — Content Distinctiveness & Information-Gain Auditor
-Powered by Brewcontent AI
+Built by Brewcontent.ai
 
 generic_sample.txt  (142 words)
 Distinctiveness Score: 18.4/100 — Highly generic — rewrite recommended before publishing.
@@ -107,4 +111,4 @@ MIT — see [LICENSE](LICENSE).
 
 ---
 
-Built by [CloudAngles](https://cloudangles.com) · Powered by **Brewcontent AI**
+Built by **[Brewcontent.ai](https://brewcontent.ai)**
